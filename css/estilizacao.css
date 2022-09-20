@@ -19,9 +19,35 @@
   padding: 2%;
 }
 
-a {
-  color: rgb(255, 255, 255);
+li a {
+  display: block;
+  color: rgb(33, 6, 76);
+  text-align: center;
+  padding: 12px 14px;
   text-decoration: none;
-  font-size: 20px;
-  font-style: oblique;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: rgb(212, 130, 130);
+}
+
+.classli {
+  float: left;
+}
+
+.classul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(218, 200, 172);
+}
+
+
+.classulcontato{
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(218, 200, 172);
 }
